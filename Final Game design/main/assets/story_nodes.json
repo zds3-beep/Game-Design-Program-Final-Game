@@ -1,0 +1,179 @@
+{
+  "nodes": [
+    {
+      "id": "meet_friend",
+      "title": "A Chance Meeting",
+      "description": "You encounter a fellow traveler who seems friendly. Perhaps this could be the start of a meaningful friendship?",
+      "category": "social",
+      "outcomes": [
+        {
+          "description": "Approach them warmly",
+          "requirements": {},
+          "effects": {
+            "motivationChange": -2,
+            "insanityChange": -10,
+            "insightChange": 0,
+            "statChanges": { "social": 5 },
+            "resultText": "Hero has made a friend! You feel more connected to the world around you."
+          },
+          "unlocksNodes": ["friend_rivalry", "friend_dies"],
+          "locksNodes": [],
+          "priority": 3,
+          "difficulty": "EASY"
+        },
+        {
+          "description": "Try to impress them with wealth",
+          "requirements": { "minFinancial": 5 },
+          "effects": {
+            "motivationChange": -2,
+            "insanityChange": -10,
+            "insightChange": 0,
+            "statChanges": { "social": 5 },
+            "resultText": "Hero has made a friend! Your generosity wins them over."
+          },
+          "unlocksNodes": ["friend_rivalry", "friend_dies"],
+          "locksNodes": [],
+          "priority": 2,
+          "difficulty": "EASY"
+        },
+        {
+          "description": "Introduce yourself formally",
+          "requirements": { "minNobility": 10 },
+          "effects": {
+            "motivationChange": -2,
+            "insanityChange": -10,
+            "insightChange": 0,
+            "statChanges": { "social": 5 },
+            "resultText": "Hero has made a friend! Your status and manners impress them."
+          },
+          "unlocksNodes": ["friend_rivalry", "friend_dies"],
+          "locksNodes": [],
+          "priority": 1,
+          "difficulty": "EASY"
+        }
+      ]
+    },
+    {
+      "id": "goblin_encounter_1",
+      "title": "Lone Goblin",
+      "description": "A single goblin blocks your path, brandishing a crude weapon. It seems ready for a fight.",
+      "category": "combat",
+      "outcomes": [
+        {
+          "description": "Fight with your weapon",
+          "requirements": {},
+          "effects": {
+            "motivationChange": 5,
+            "insanityChange": 1,
+            "insightChange": 0,
+            "statChanges": { "martial": 5 },
+            "resultText": "Hero has defeated 1 goblin! Your combat skills improve."
+          },
+          "unlocksNodes": [],
+          "locksNodes": [],
+          "priority": 4,
+          "difficulty": "EASY"
+        },
+        {
+          "description": "Use your equipment advantage",
+          "requirements": { "minEquipment": 5 },
+          "effects": {
+            "motivationChange": 5,
+            "insanityChange": 1,
+            "insightChange": 0,
+            "statChanges": { "martial": 5 },
+            "resultText": "Hero has defeated 1 goblin! Your superior gear makes quick work of it."
+          },
+          "unlocksNodes": [],
+          "locksNodes": [],
+          "priority": 3,
+          "difficulty": "EASY"
+        }
+      ]
+    },
+    {
+      "id": "local_dance",
+      "title": "Village Dance",
+      "description": "The local village is holding a dance. It could be a good opportunity to relax and socialize.",
+      "category": "social",
+      "outcomes": [
+        {
+          "description": "Attend and socialize",
+          "requirements": {},
+          "effects": {
+            "motivationChange": -2,
+            "insanityChange": -10,
+            "insightChange": 0,
+            "statChanges": { "social": 5 },
+            "resultText": "Hero has had a good time at the dance! The peaceful evening soothes your mind."
+          },
+          "unlocksNodes": [],
+          "locksNodes": [],
+          "priority": 1,
+          "difficulty": "EASY"
+        }
+      ]
+    },
+    {
+      "id": "lose_parents",
+      "title": "Tragedy Strikes",
+      "description": "Devastating news arrives. Your parents have been killed by raiders. The world feels darker.",
+      "category": "tragedy",
+      "outcomes": [
+        {
+          "description": "Swear vengeance",
+          "requirements": {},
+          "effects": {
+            "motivationChange": 50,
+            "insanityChange": 30,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "Hero loses their parents, and decides to fight for the good of all people. Grief fuels determination."
+          },
+          "unlocksNodes": [],
+          "locksNodes": [],
+          "priority": 1,
+          "difficulty": "EASY"
+        }
+      ]
+    },
+    {
+      "id": "festival",
+      "title": "Grand Festival",
+      "description": "The capital hosts a grand festival. This is a major social event with many eyes watching.",
+      "category": "social",
+      "outcomes": [
+        {
+          "description": "Attend and mingle gracefully",
+          "requirements": { "minSocial": 10 },
+          "effects": {
+            "motivationChange": -4,
+            "insanityChange": -20,
+            "insightChange": 0,
+            "statChanges": { "social": 10, "nobility": 5 },
+            "resultText": "Hero has had a good time at the festival! Your social grace impresses many nobles."
+          },
+          "unlocksNodes": [],
+          "locksNodes": [],
+          "priority": 1,
+          "difficulty": "MEDIUM"
+        },
+        {
+          "description": "Attend unprepared",
+          "requirements": {},
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 5,
+            "insightChange": 0,
+            "statChanges": { "financial": -2, "nobility": -2 },
+            "resultText": "Hero makes social mistakes and embarrasses himself. The nobles whisper and laugh."
+          },
+          "unlocksNodes": [],
+          "locksNodes": [],
+          "priority": 0,
+          "difficulty": "MEDIUM"
+        }
+      ]
+    }
+  ]
+}

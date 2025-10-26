@@ -1,0 +1,36 @@
+{
+  "nodes": [
+    {
+      "id": "training_ground",
+      "title": "Training Ground",
+      "description": "Practice your combat skills at the training yard.",
+      "category": "combat",
+      "outcomes": [
+        {
+          "description": "Train intensely",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 5,
+            "insanityChange": 0,
+            "insightChange": 2,
+            "statChanges": {
+              "martial": 3
+            },
+            "resultText": "You improve your fighting technique through rigorous practice."
+          },
+          "unlocksNodes": [],
+          "locksNodes": [],
+          "priority": 1,
+          "difficulty": "EASY"
+        }
+      ]
+    }
+  ]
+}
