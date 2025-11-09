@@ -1,0 +1,1919 @@
+{
+  "nodes": [
+    {
+      "id": "acid_dragon_attacks",
+      "title": "Acid Dragon attacks Hero",
+      "description": "You create the evil and vile acid dragon Mortano to attack the Hero. ",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "HARD",
+          "requirements": {
+            "minMartial": 80,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 10,
+            "insanityChange": 0,
+            "insightChange": 10,
+            "statChanges": {},
+            "resultText": "The Hero vanquishes the Acid Dragon, a powerful strike sends the dragon to it's doom. Your victory gives the hero insight into the meaning of reality."
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "acid_dragon_attacks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bandit_attacks",
+      "title": "A single bandit attacks Hero",
+      "description": "You cause a single bandit to attack the Hero. ",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 5,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 5,
+            "insanityChange": 5,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero manages to defeat the single bandit through violent methods. The corpse marres the victory."
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "bandit_base_assault",
+      "title": "Hero attacks a bandit base",
+      "description": "You gather bandits into a base and cause the Hero to become aware of the base. ",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "MEDIUM",
+          "requirements": {
+            "minMartial": 40,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 5,
+            "insanityChange": 5,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero manages to defeat the entire base of bandits. the victory is marred by the violence. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "bandit_gang_attacks",
+      "title": "A gang of bandits attacks Hero",
+      "description": "You cause a bloodthirsty gang of armed bandits to target and attack the Hero. ",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 20,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 5,
+            "insanityChange": 5,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero manages to defeat a group of bandits by violent means. The victory is marred by violence."
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "bandit_group_attacks",
+      "title": "A group of bandits attacks Hero",
+      "description": "You cause a group of cutthroat bandits to attack the Hero.",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 20,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 5,
+            "insanityChange": 5,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero manages to defeat a group of bandits through violent means. Their corpses mar the victory. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "corrupted_hydra_attacks",
+      "title": "A corrupted hydra attacks Hero",
+      "description": "You create a Corrupted Hydra and have it attack the Hero.",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "HARD",
+          "requirements": {
+            "minMartial": 60,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 10,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero manages to slay the corrupted Hydra through violent means."
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "drake_attacks",
+      "title": "A drake attacks Hero",
+      "description": "You create a mighty drake with a gaping maw of death and destruction to attack the Hero. ",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "HARD",
+          "requirements": {
+            "minMartial": 65,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 10,
+            "insanityChange": 0,
+            "insightChange": 5,
+            "statChanges": {},
+            "resultText": "The Hero manages to slay the mighty drake and free the land from a danger. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "drake_attacks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fights_in_arena",
+      "title": "Hero fights in arena",
+      "description": "You incite a arena to be created and an invite to be sent to the Hero.",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "MEDIUM",
+          "requirements": {
+            "minMartial": 45,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 5,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero defeats their opponent in the arena and wins funds."
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "fire_dragon_attacks",
+      "title": "A fire Dragon attacks Hero",
+      "description": "You create the ferocious and mighty fire dragon Azarel to attack the Hero. ",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EXTREME",
+          "requirements": {
+            "minMartial": 85,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 10,
+            "insanityChange": 0,
+            "insightChange": 10,
+            "statChanges": {},
+            "resultText": "The Hero vanquishes the Fire Dragon, A swift strike sends the dragon to it's doom. The victory gives the Hero insight into the world. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "fire_dragon_attacks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ghoul_attack",
+      "title": "Ghouls Attack Hero",
+      "description": "You create a large group of armored hungering ghouls to attack the Hero. ",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 25,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 5,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero slays the vile Ghouls in combat."
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "goblin_army_attacks",
+      "title": "A goblin army attacks Hero",
+      "description": "You cause an army of armored and motivated Goblins to attack the Hero. ",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 20,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 5,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero slays an entire army of goblins in their vile armor. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "goblin_group_attacks",
+      "title": "A group of goblins attacks Hero",
+      "description": "You cause a group of armored Goblins to attack the Hero. ",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 15,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 5,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero slays a group of armored goblins through swift and decisive actions. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "goblin_pack_attacks",
+      "title": "A pack of goblins attacks Hero",
+      "description": "You cause a pack of motivated Goblins to attack the Hero. ",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 10,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 5,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero slays a pack of motivated goblins with ferocity."
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "goblin_pair_attacks",
+      "title": "A pair of goblins attacks Hero",
+      "description": "You cause a pair of Goblins to attack the Hero.",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 5,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 5,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero slays a pair of goblins. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "Hero_meets_a_martial_mentor",
+      "title": "Hero meets a martial mentor",
+      "description": "You cause a martial mentor to take an interest in the Hero.",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero meets an incredible fighter, Marcus, who vows to train them."
+          },
+          "unlocksNodes": [
+            "martial_mentor_shows_techniques",
+            "martial_mentor_dies"
+          ],
+          "locksNodes": [
+            "Hero_meets_a_martial_mentor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ice_dragon_attacks",
+      "title": "Ice Dragon attacks Hero",
+      "description": "You create the cunning and righteous ice dragon Graftin to attack the Hero. ",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EXTREME",
+          "requirements": {
+            "minMartial": 75,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 10,
+            "insanityChange": 0,
+            "insightChange": 10,
+            "statChanges": {},
+            "resultText": "The Hero crushes the cunning Ice Dragon Graftin with a brutal strike and gains insight into battle."
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "ice_dragon_attacks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lich_attack",
+      "title": "An Undead Lich attacks Hero",
+      "description": "You create a powerful neigh undefeatable lich,  to challenge the Hero. ",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EXTREME",
+          "requirements": {
+            "minMartial": 85,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 10,
+            "insanityChange": 0,
+            "insightChange": 10,
+            "statChanges": {},
+            "resultText": "The Hero snatches victory from the jaws of defeat and against all odds defeats the lich and gains insight into life. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "lich_attack"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "martial_mentor_gives_Hero_legendary_sword",
+      "title": "Martial mentor gives Hero legendary sword",
+      "description": "You cause the martial mentor to bequeth the legendary sword Dawnbringer.",
+      "category": "combat",
+      "initiallyLocked": true,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Legendary fighter Marcus bequeths the unique and indestructible sword Dawnbringer to the Hero. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "martial_mentor_gives_Hero_legendary_sword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "martial_mentor_shows_techniques",
+      "title": "Hero is taught martial techniques",
+      "description": "You cause the martial mentor to teach the Hero martial techniques.",
+      "category": "combat",
+      "initiallyLocked": true,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Legndary fighter Marcus teaches the Hero effecient fighting techniques."
+          },
+          "unlocksNodes": [
+            "martial_mentor_gives_Hero_legendary_sword"
+          ],
+          "locksNodes": [
+            "martial_mentor_shows_techniques"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skeleton_attack",
+      "title": "Skeletons attack Hero",
+      "description": "You create a moderate force of skeletons to attack the Hero. ",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 20,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero defeats the skeleton warriors and is motivated to become stronger."
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "trains_fighting",
+      "title": "Hero trains with weapons",
+      "description": "You create a training ground for the Hero to practice their martial arts",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 5,
+            "insanityChange": 0,
+            "insightChange": 5,
+            "statChanges": {},
+            "resultText": "The Hero practices their martial arts and develops their insight in the calm of the practice. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "undead_knight_attacks",
+      "title": "Undead Knight attacks Hero",
+      "description": "You create an undead knight zapheral, to attack the Hero.",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "HARD",
+          "requirements": {
+            "minMartial": 70,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 10,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero barely manages to defeat the undead Knight Zapheral and is motivated to improve their skills going forward. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "undead_knight_attacks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zombies_attack",
+      "title": "Zombies attack Hero",
+      "description": "You create a small force of zombies to attack the Hero. ",
+      "category": "combat",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 10,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 5,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero destroys the Zombies and gains motivation to improve. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "alchemy_mentor_gives_Hero_recipe",
+      "title": "Alchemy Mentor gives Hero moderate recipe",
+      "description": "You cause the alchemy mentor to teach the Hero an alchemy recipe for glue for all kinds of equipment. ",
+      "category": "equipment",
+      "initiallyLocked": true,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 5,
+            "statChanges": {},
+            "resultText": "The Alchemy Master Edlund taught the Hero a complex recipe for glue. The Hero gains insight into mentorship."
+          },
+          "unlocksNodes": [
+            "alchemy_mentor_gives_Hero_secret_mana_technique"
+          ],
+          "locksNodes": [
+            "alchemy_mentor_gives_Hero_recipe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alchemy_mentor_gives_Hero_secret_mana_technique",
+      "title": "Alchemy Mentor teaches Hero mana technique for crafting",
+      "description": "You cause the alchemy mentor to teach the Hero a secret mana, the blood method, to imbue all crafting to new heights. ",
+      "category": "equipment",
+      "initiallyLocked": true,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Alchemy Master Edlund teaches the Master technique for crafting using blood mana technique."
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "alchemy_mentor_gives_Hero_secret_mana_technique"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cheap_crafting_materials_found",
+      "title": "Cheap crafting material found",
+      "description": "You create a small collection of crafting materials for the Hero to come accross. ",
+      "category": "equipment",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 5,
+            "statChanges": {},
+            "resultText": "The Hero manages to practice their crafting with basic recipes. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "come_across_unused_labratory",
+      "title": "Come across unused laboratory",
+      "description": "You create a labratory filled with crafting materials and complex mechanisms for the Hero to test and use them. ",
+      "category": "equipment",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 15,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 5,
+            "statChanges": {},
+            "resultText": "The Hero manages to utilize the crafting Materials in the unused laboratory and gains insight into the universe. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "come_across_unused_labratory"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "craft_cure_for_disease",
+      "title": "Hero crafts cure for disease",
+      "description": "You cause an epidemic giving an opportuninty for the Hero to craft a cure. ",
+      "category": "equipment",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "HARD",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 65,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 5,
+            "statChanges": {},
+            "resultText": "The Hero manages to cure the black spot disease. They gain insight into empathy and healing."
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "craft_cure_for_disease"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "craft_explosives",
+      "title": "Hero crafts explosives",
+      "description": "You create a local deposite of nitrogen for the Hero to possibly craft explosives. ",
+      "category": "equipment",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "MEDIUM",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 35,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 5,
+            "statChanges": {},
+            "resultText": "The Hero manages to craft explosives. Useful in construction and other uses. Hero gains insight into responsibility. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "craft_irrigation_system",
+      "title": "Hero crafts irregation system",
+      "description": "You cause an opportunity for the Hero to craft an irrigation system for a local farm.",
+      "category": "equipment",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "MEDIUM",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 55,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 5,
+            "statChanges": {},
+            "resultText": "The Hero manages to craft an irrigation system for a wide swath of farmland. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "craft_irrigation_system"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "craft_shipping_carraige",
+      "title": "Hero crafts shipping carraige",
+      "description": "You cause a shipping company to ask the Hero for a new carraige.",
+      "category": "equipment",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 20,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 5,
+            "statChanges": {},
+            "resultText": "The Hero manages to craft the shipping carraige for a local shipping company. The Hero gains insight into responsibility."
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "craft_shipping_carraige"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crafting_book_found",
+      "title": "Hero finds crafting book",
+      "description": "You cause a crafting expert to pass on their lessons in book form to the Hero. ",
+      "category": "equipment",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 10,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 5,
+            "statChanges": {},
+            "resultText": "The Hero manages to comprehend the crafting recipes. The Hero gains insight into research."
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "crafting_book_found"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creating_advanced_alchemy_lab",
+      "title": "Come across advanced alchemy lab",
+      "description": "You create a legendary lab with advanced tools and crafting equipment for the Hero to possibly understand and use. ",
+      "category": "equipment",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EXTREME",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 80,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 5,
+            "statChanges": {},
+            "resultText": "The successfully utilizes the legendary alchemy lab with complex crafting tools and chemicals. Hero gains insight into complexity."
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "creating_advanced_alchemy_lab"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creating_armor",
+      "title": "Hero crafts armor",
+      "description": "You cause a city blacksmith to need assistance to craft armor, and Hero might receive them in exchange.",
+      "category": "equipment",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 20,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero successfully crafts armor."
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "creating_armor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creating_magical_armor",
+      "title": "Hero crafts magical armor",
+      "description": "You cause a legendary blacksmith to need assistance to craft magical armor, and the Hero might receive them in exchange. ",
+      "category": "equipment",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "MEDIUM",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 45,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 5,
+            "statChanges": {},
+            "resultText": "The Hero successfully crafts magical pauldrons. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "creating_magical_armor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creating_magical_tools",
+      "title": "Hero crafts Magical tools",
+      "description": "You cause a legendary blacksmith to need assistance to craft magical tools, and the Hero might receive them in exchange. ",
+      "category": "equipment",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "MEDIUM",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 35,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 5,
+            "statChanges": {},
+            "resultText": "The Hero successfully crafts magical hot plates and measurement cups. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "creating_magical_tools"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creating_magical_weapons",
+      "title": "Hero crafts Magical weapons",
+      "description": "You cause a legendary blacksmith to need assistance to craft magical weapons, and the Hero might receive them in exchange. ",
+      "category": "equipment",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "MEDIUM",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 50,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 5,
+            "statChanges": {},
+            "resultText": "The Hero successfully crafts magical daggers. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "creating_magical_weapons"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creating_tools",
+      "title": "Hero crafts tools ",
+      "description": "You cause a city blacksmith to need assistance to craft tools, and Hero might receive them in exchange.",
+      "category": "equipment",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 15,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero successfully crafts tools. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "creating_weapons",
+      "title": "Hero crafts weapons",
+      "description": "You cause a city blacksmith to need assistance to craft weapons, and Hero might receive them in exchange.",
+      "category": "equipment",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 20,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero successfully crafts weapons. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "Hero_meets_an_alchemy_mentor",
+      "title": "Hero meets an alchemy mentor",
+      "description": "You cause an Alchemy mentor to take an interest in the Hero",
+      "category": "equipment",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 5,
+            "statChanges": {},
+            "resultText": "The Hero meets the legendary alchemist Journegan. "
+          },
+          "unlocksNodes": [
+            "alchemy_mentor_dies",
+            "alchemy_mentor_gives_Hero_recipe"
+          ],
+          "locksNodes": [
+            "Hero_meets_an_alchemy_mentor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "make_armor",
+      "title": "Hero makes armor",
+      "description": "You cause a local blacksmith to seek assistance crafting armor from the Hero. ",
+      "category": "equipment",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 20,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero successfully crafts armor."
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "moderate_crafting_materials_found",
+      "title": "Come across moderate crafting materials",
+      "description": "You create a moderate collection of crafting materials and ores for the Hero to come accross.",
+      "category": "equipment",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 10,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero manages to craft useful tools and manages to smelt raw ores."
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "moderate_crafting_materials_found"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bumper_crop_economy",
+      "title": "Hero deals with bumper crop",
+      "description": "You help plants grow creating an opportunity to grow an excess of crops creating an opportunity for market growth for the Hero. ",
+      "category": "financial",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EXTREME",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 80,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero manages to secure the excess crops at a discount and make major profits. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "bumper_crop_economy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "create_major_company",
+      "title": "Hero creates major company",
+      "description": "You create the right set of circumstances for the Hero to create a major trading company across countries. ",
+      "category": "financial",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EXTREME",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 75,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero manages to create a Major company and seize market share. Major financial improvement. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "create_major_company"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "create_material_shortage",
+      "title": "Hero handles material shortage ",
+      "description": "You destroy a specific material in the world, the Hero might be able to corner the market. ",
+      "category": "financial",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EXTREME",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 80,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero manages to purchase the majority of low supply materials. Creating a monopoly and massive financial advantage."
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "create_material_shortage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "create_shipping_company",
+      "title": "Hero creates shipping company",
+      "description": "You create the right set of circumstances for the Hero to create a moderate shipping company.",
+      "category": "financial",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "HARD",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 60,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero manages to create a local shipping company. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "create_shipping_company"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "create_small_company",
+      "title": "Hero creates small shipping company",
+      "description": "You create the right set of circumstances for the Hero to create a small company. ",
+      "category": "financial",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 30,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero manages to create a small niche company. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "create_small_company"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "discover_copper_mine",
+      "title": "Hero discovers copper mine",
+      "description": "You create a copper mine for the Hero to gain some funding. ",
+      "category": "financial",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero discovers a copper mine and strips it for materials. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "discover_copper_mine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "discover_gold_mine",
+      "title": "Hero discovers gold mine",
+      "description": "You create a gold mine for the Hero to gain significant funding. ",
+      "category": "financial",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero discovers a Gold mine and thoroughly mines the materials for massive gain. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "discover_gold_mine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "discover_silver_mine",
+      "title": "Hero discovers silver mine",
+      "description": "You create a silver mine for the Hero to gain moderate funding. ",
+      "category": "financial",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero discovers a Silver mine and mines the materials "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "discover_silver_mine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exclusive_rights_medicine",
+      "title": "Hero tries to buy exclusive rights to medicine. ",
+      "description": "You create a unique medicine in need, the Hero might be able to buy the manufacturing rights and make a hefty profit. ",
+      "category": "financial",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EXTREME",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 90,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero purchases the exclusive manufacturing rights to a rare and useful medicine."
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "exclusive_rights_medicine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exclusive_rights_toy",
+      "title": "Hero tries to buy exclusive rights to toy",
+      "description": "You create a unique toy with a lot of interest, the Hero might be able buy the rights and make a profit. ",
+      "category": "financial",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "HARD",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 75,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero purchases the exclusive manufacturing rights to an exclusive rights. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "exclusive_rights_toy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "go_long_on_stocks",
+      "title": "Hero tries to go long on stocks",
+      "description": "You manipulate stocks and create an opportunity to make a lot of money. ",
+      "category": "financial",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "HARD",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 65,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero purchases a multitude to low value stocks in the hopes that one will be profitable, The hero was able to buy enough to get lucky. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "go_long_on_stocks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "investment_opportunity_Large_supplier",
+      "title": "Hero has investment opportunity with large supplier",
+      "description": "You create an investment opportunity for the Hero to invest in a major parts supplier for several major cities. ",
+      "category": "financial",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "HARD",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 70,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero has enough funding to invest in a large corporation. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "investment_opportunity_Large_supplier"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "investment_opportunity_local_baker",
+      "title": "Hero has investment opportunity with local baker",
+      "description": "You create an investment opportunity for the Hero to invest in a local bakers new donuts. ",
+      "category": "financial",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "EASY",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 20,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero has enough funding to invest in a local bakery. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "investment_opportunity_Major_conglomerate",
+      "title": "Hero has investment opportunity with Major conglomerate",
+      "description": "You create an investment opportunity for the Hero to invest in the Massive multinational company, optum. ",
+      "category": "financial",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "HARD",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 85,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero has the massive amount of funding to invest in a major conglomerate. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "investment_opportunity_Major_conglomerate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "investment_opportunity_mercenary_guild",
+      "title": "Hero has investment opportunity with mercenary guild ",
+      "description": "You create an investment opportunity for the Hero to invest in a moderate mecenary guild. ",
+      "category": "financial",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "MEDIUM",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 40,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero has the funding to invest in a mercenary guild. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "investment_opportunity_mercenary_guild"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "investment_opportunity_small_shipping_company",
+      "title": "Hero has investment opportunity with small shipping company",
+      "description": "You create an investment opportunity for the Hero to invest in a small shipping company. ",
+      "category": "financial",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "MEDIUM",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 30,
+            "minNobility": 0,
+            "minMagical": 0
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero has the funding to invest in a small company. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": []
+        }
+      ]
+    },
+    {
+      "id": "align_internal_energies",
+      "title": "Hero tries to align internal energies",
+      "description": "You cause an influx of mana in the world, the Hero might be able to absorb and align their internal energies. ",
+      "category": "magical",
+      "initiallyLocked": false,
+      "outcomes": [
+        {
+          "description": "",
+          "priority": 1,
+          "difficulty": "MEDIUM",
+          "requirements": {
+            "minMartial": 0,
+            "minEquipment": 0,
+            "minSocial": 0,
+            "minFinancial": 0,
+            "minNobility": 0,
+            "minMagical": 50
+          },
+          "effects": {
+            "motivationChange": 0,
+            "insanityChange": 0,
+            "insightChange": 0,
+            "statChanges": {},
+            "resultText": "The Hero aligns their internal energies with external energies. The magical power increases. "
+          },
+          "unlocksNodes": [],
+          "locksNodes": [
+            "align_internal_energies"
+          ]
+        }
+      ]
+    }
+  ]
+}
