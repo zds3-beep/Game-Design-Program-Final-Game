@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!-- Video View -->
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"/>
+
+    <!-- Optional: Tap to Skip hint (fades out after a few seconds) -->
+    <TextView
+        android:id="@+id/tvSkipHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap anywhere to skip"
+        android:textColor="#AAFFFFFF"
+        android:textSize="14sp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="24dp"
+        android:padding="12dp"
+        android:background="#33000000"
+        android:alpha="0.7"/>
+
+</FrameLayout>

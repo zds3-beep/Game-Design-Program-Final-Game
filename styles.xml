@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Add this style to your res/values/styles.xml file -->
+
+    <style name="ShapeAppearance.HerosJourney.FinalBossButton" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="FinalBossButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">4dp</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.HerosJourney.FinalBossButton</item>
+    </style>
+
+</resources>
