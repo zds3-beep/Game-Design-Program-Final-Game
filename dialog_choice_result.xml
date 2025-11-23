@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="24dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="8dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- Result Header -->
+            <TextView
+                android:id="@+id/tvResultHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUCCESS!"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/success_green"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Outcome Description -->
+            <TextView
+                android:id="@+id/tvOutcomeDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You chose to: Fight the bandits head-on"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:layout_marginBottom="12dp"/>
+
+            <!-- Result Text -->
+            <TextView
+                android:id="@+id/tvResultText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your superior swordsmanship overwhelms the bandits. They flee in terror!"
+                android:textSize="16sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="20dp"/>
+
+            <!-- Divider -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_gray"
+                android:layout_marginVertical="12dp"/>
+
+            <!-- Passed Check Info -->
+            <LinearLayout
+                android:id="@+id/layoutPassedCheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/check_passed_background"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_check"
+                    android:contentDescription="Check passed"/>
+
+                <TextView
+                    android:id="@+id/tvPassedCheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Martial Check Passed! (+8 bonus)"
+                    android:textStyle="bold"
+                    android:textColor="@color/success_green"
+                    android:layout_marginStart="8dp"/>
+
+            </LinearLayout>
+
+            <!-- Stat Changes Header -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stat Changes:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp"/>
+
+            <!-- Stat Changes List -->
+            <LinearLayout
+                android:id="@+id/layoutStatChanges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- These will be added dynamically, but here's an example: -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="4dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Martial:"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+13"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/positive_green"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  (10 → 23)"
+                        android:textSize="12sp"
+                        android:textColor="@color/dark_gray"
+                        android:layout_marginStart="8dp"/>
+
+                </LinearLayout>
+
+                <!-- More stat change rows added programmatically -->
+
+            </LinearLayout>
+
+            <!-- Divider -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_gray"
+                android:layout_marginVertical="16dp"/>
+
+            <!-- Bar Changes -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status Changes:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp"/>
+
+            <LinearLayout
+                android:id="@+id/layoutBarChanges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Example bar change -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="4dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Motivation:"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+5"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/positive_green"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  (50 → 55)"
+                        android:textSize="12sp"
+                        android:textColor="@color/dark_gray"
+                        android:layout_marginStart="8dp"/>
+
+                </LinearLayout>
+
+                <!-- More bar changes added programmatically -->
+
+            </LinearLayout>
+
+            <!-- Continue Button -->
+            <Button
+                android:id="@+id/btnContinue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Continue"
+                android:textSize="16sp"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="@color/button_primary"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.cardview.widget.CardView>
